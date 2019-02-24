@@ -1,0 +1,3 @@
+declare module 'clone-deep' {
+  
+}

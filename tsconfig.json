@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": { "*": ["types/*"] },
     "target": "es5",
     "module": "commonjs",
     "lib": [
@@ -18,12 +20,12 @@
     "removeComments": true,
     "downlevelIteration": true,
     "strict": true,
-    "noImplicitAny": true,
+    "alwaysStrict": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "moduleResolution": "node",
@@ -33,8 +35,5 @@
     "pretty": true,
     "diagnostics": true
   },
-  "include": [
-    "./src",
-    "./typings"
-  ]
+  "include": ["./src"]
 }

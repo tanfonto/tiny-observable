@@ -6,4 +6,3 @@ dist/
 coverage/
 .npmignore
 .nyc_output/
-.rpt2_cache/
