@@ -1,0 +1,50 @@
+{
+  "name": "tiny-observable",
+  "version": "0.0.1",
+  "description": "Tiny, ES6 gener ators-based observable implementation",
+  "keywords": [
+    "FRP",
+    "Observable",
+    "Generators",
+    "Typescript"
+  ],
+  "main": "index.ts",
+  "author": "Whapky",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/whapky/tiny-observable"
+  },
+  "unpkg": "./dist/lib.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:dev": "tsc",
+    "test": "nyc ava-ts"
+  },
+  "directories": {
+    "test": "test",
+    "lib": "src"
+  },
+  "files": [
+    "dist",
+    "src",
+    "test"
+  ],
+  "dependencies": {
+    "@types/ramda": "^0.25.36",
+    "rambda": "^1.2.0",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.1",
+    "ava-ts": "^0.25.1",
+    "nyc": "^12.0.2",
+    "coveralls": "^3.0.2",
+    "ts-node": "^7.0.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-delete": "^0.1.2",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-typescript2": "^0.16.1",
+    "rollup-plugin-uglify": "^4.0.0"
+  }
+}

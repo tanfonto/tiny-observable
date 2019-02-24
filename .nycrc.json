@@ -1,0 +1,26 @@
+{
+  "check-coverage": true,
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/index.ts",
+    "dist/@types/*"
+  ],
+  "extension": [
+    ".ts"
+  ],
+  "require": [
+    "ts-node/register"
+  ],
+  "reporter": [
+    "text"
+  ],
+  "sourceMap": true,
+  "instrument": true,
+  "all": true,
+  "lines": 90,
+  "statements": 99,
+  "functions": 99,
+  "branches": 99
+}

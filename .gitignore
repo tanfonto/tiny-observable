@@ -1,0 +1,9 @@
+.vscode/
+.idea/
+.history/
+node_modules/
+dist/
+coverage/
+.npmignore
+.nyc_output/
+.rpt2_cache/
